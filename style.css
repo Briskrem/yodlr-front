@@ -1,0 +1,80 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+}
+.navbar a{
+    color: pink;
+    margin: 0 100px;
+}
+section{
+    height: 93vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#homepage{
+    background-color: beige;
+    /* min-height: 93vh; */
+    height: auto;
+}
+#register{
+    background-color: aquamarine;
+   
+}
+#administration{
+    background-color: yellow;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: none;
+    outline: 0;
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+}
+form button{
+    height: 40px;
+    width: 200px;
+    border: 0;
+    border-radius: 10px;
+    background-color: black;
+    color: yellow;
+    box-shadow: 0 0 10px yellow;
+}
+#homepage div{
+    margin: 30px 0;
+    border: 2px solid green;
+    border-radius: 10px;
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* .admin-but{
+    height: 40px;
+    width: 200px;
+    border: 0;
+    border-radius: 10px;
+    background-color: black;
+    color: yellow;
+    box-shadow: 0 0 10px yellow;
+} */
